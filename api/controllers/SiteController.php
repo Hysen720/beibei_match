@@ -4,7 +4,6 @@ use yii;
 use yii\web\Controller;
 class SiteController extends Controller{
     public function actionIndex(){
-    	print("移动端api控制器");
-    	 
+        return $this->render('/site/index.html');
     }
 }
